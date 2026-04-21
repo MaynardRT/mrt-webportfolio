@@ -28,6 +28,11 @@ export type ProjectItem = {
   image: string;
 };
 
+export type SocialLinks = {
+  label: string;
+  href: string;
+};
+
 export type ContactAction = {
   label: string;
   value: string;
@@ -149,6 +154,25 @@ export const projects: ProjectItem[] = [
     href: "https://tindog-web.vercel.app/",
     image: "/images/tindog-mark.svg",
   },
+];
+
+export const sociallinks: Sociallink[] = [
+{ label: "GitHub", href: "https://github
+• com/MaynardRT" },
+
+{
+label: "LinkedIn",
+href: "https://www.linkedin.com/in/may
+nard-toong-8477aa146",
+},
+{ label: "Facebook", href: "https://www.
+facebook.com/MaynardRT/" },
+
+{ label: "Twitter", href: "https://twitt
+er.com/Maynardrt19" },
+
+{ label: "Pixilart", href: "https://www. pixilart.com/azashi" },
+
 ];
 
 export const contactActions: ContactAction[] = [
