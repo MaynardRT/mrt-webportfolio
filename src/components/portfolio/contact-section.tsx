@@ -1,4 +1,4 @@
-import { contactActions, socialLinks } from "@/data/portfolio";
+import { contactActions } from "@/data/portfolio";
 
 import { MailIcon, MapPinIcon, PhoneIcon } from "./icons";
 import { Reveal } from "./reveal";
