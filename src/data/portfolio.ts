@@ -28,11 +28,6 @@ export type ProjectItem = {
   image: string;
 };
 
-export type SocialLink = {
-  label: string;
-  href: string;
-};
-
 export type ContactAction = {
   label: string;
   value: string;
@@ -156,22 +151,11 @@ export const projects: ProjectItem[] = [
   },
 ];
 
-export const socialLinks: SocialLink[] = [
-  { label: "GitHub", href: "https://github.com/MaynardRT" },
-  {
-    label: "LinkedIn",
-    href: "https://www.linkedin.com/in/maynard-toong-8477aa146",
-  },
-  { label: "Facebook", href: "https://www.facebook.com/MaynardRT/" },
-  { label: "Twitter", href: "https://twitter.com/Maynardrt19" },
-  { label: "Pixilart", href: "https://www.pixilart.com/azashi" },
-];
-
 export const contactActions: ContactAction[] = [
   {
     label: "Send Email",
-    value: "azashireyes19@gmail.com",
-    href: "mailto:azashireyes19@gmail.com",
+    value: "maynard.rt97@gmail.com",
+    href: "mailto:maynard.rt97@gmail.com",
   },
   {
     label: "Call",
