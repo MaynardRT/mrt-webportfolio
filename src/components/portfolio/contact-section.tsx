@@ -31,25 +31,6 @@ export function ContactSection() {
             title="Open to opportunities and conversations"
             description="If you want to discuss roles, projects, or collaboration, the fastest way to reach me is through email or LinkedIn."
           />
-
-          <div className="mt-6 flex flex-wrap gap-2 sm:mt-8 sm:gap-3">
-            {socialLinks.map((link, index) => (
-              <Reveal
-                key={link.label}
-                className="inline-flex"
-                delay={index * 60}
-              >
-                <a
-                  href={link.href}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="chip chip-link"
-                >
-                  {link.label}
-                </a>
-              </Reveal>
-            ))}
-          </div>
         </div>
 
         <div className="grid gap-3">
