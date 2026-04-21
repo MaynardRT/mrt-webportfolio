@@ -1,5 +1,4 @@
 import { ContactSection } from "@/components/portfolio/contact-section";
-import { BrandLogo } from "@/components/portfolio/brand-logo";
 import { ExperienceSection } from "@/components/portfolio/experience-section";
 import { HeroSection } from "@/components/portfolio/hero-section";
 import { ProjectsSection } from "@/components/portfolio/projects-section";
@@ -17,7 +16,7 @@ export default function Home() {
         <ProjectsSection />
         <ContactSection />
 
-        <footer className="surface-panel flex flex-col gap-4 rounded-4xl px-5 py-5 sm:flex-row sm:items-center sm:justify-between sm:px-8">
+        <footer className="surface-panel flex flex-col items-center gap-4 rounded-4xl px-5 py-5 text-center sm:px-8">
           <p className="max-w-xl text-sm leading-6 text-muted">
             © 2026 Maynard Toong.
           </p>

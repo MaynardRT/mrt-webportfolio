@@ -147,12 +147,12 @@ export const projects: ProjectItem[] = [
     image: "/images/twitterx-mark.svg",
   },
   {
-    title: "Python Axie Class",
+    title: "TinDog",
     description:
-      "A dictionary-based selection tool inspired by Axie Infinity, built to practice data structures and logic flow.",
-    techstack: "Python Project",
-    href: "https://github.com/MaynardRT/Python-Projects/blob/a6b645760558618118e408df4c512ce13438b8f2/AxieClass.py",
-    image: "/images/python-axie-class.png",
+      "A playful product landing page for a dog-matching app concept, featuring bold marketing sections, testimonials, pricing cards, and mobile app call-to-action styling.",
+    techstack: "HTML5 | CSS3 | Bootstrap",
+    href: "https://tindog-web.vercel.app/",
+    image: "/images/tindog-mark.svg",
   },
 ];
 

@@ -1,0 +1,22 @@
+<svg width="1200" height="750" viewBox="0 0 1200 750" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="750" rx="48" fill="#FDF2F8"/>
+  <rect x="54" y="54" width="1092" height="642" rx="38" fill="url(#bg)" stroke="rgba(157,23,77,0.12)"/>
+  <rect x="116" y="122" width="404" height="506" rx="30" fill="#FFF7ED" stroke="rgba(190,24,93,0.14)"/>
+  <circle cx="816" cy="274" r="148" fill="#FFE4E6"/>
+  <path d="M751 255C751 218 780 190 817 190C854 190 883 218 883 255C883 326 817 368 817 368C817 368 751 326 751 255Z" fill="#EC4899"/>
+  <circle cx="816" cy="255" r="34" fill="#FDF2F8"/>
+  <rect x="164" y="180" width="212" height="24" rx="12" fill="#DB2777" fill-opacity="0.88"/>
+  <rect x="164" y="224" width="284" height="16" rx="8" fill="#9D174D" fill-opacity="0.48"/>
+  <rect x="164" y="302" width="308" height="84" rx="24" fill="#FFFFFF" stroke="rgba(236,72,153,0.24)"/>
+  <rect x="164" y="408" width="132" height="44" rx="22" fill="#EC4899"/>
+  <rect x="312" y="408" width="132" height="44" rx="22" fill="#FBCFE8"/>
+  <text x="600" y="584" text-anchor="middle" fill="#831843" font-family="'Space Grotesk', Arial, sans-serif" font-size="62" font-weight="700" letter-spacing="3">TINDOG</text>
+  <text x="600" y="636" text-anchor="middle" fill="#BE185D" font-family="'Space Grotesk', Arial, sans-serif" font-size="24" font-weight="500" letter-spacing="6">LANDING PAGE UI</text>
+  <defs>
+    <linearGradient id="bg" x1="102" y1="86" x2="1090" y2="670" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF1F2"/>
+      <stop offset="0.56" stop-color="#FCE7F3"/>
+      <stop offset="1" stop-color="#FDF2F8"/>
+    </linearGradient>
+  </defs>
+</svg>
