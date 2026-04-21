@@ -1,0 +1,17 @@
+<svg width="1200" height="750" viewBox="0 0 1200 750" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="750" rx="48" fill="#0F172A"/>
+  <rect x="52" y="52" width="1096" height="646" rx="36" fill="url(#bg)" stroke="rgba(255,255,255,0.14)"/>
+  <circle cx="600" cy="332" r="148" fill="#EFF6FF" fill-opacity="0.1" stroke="#93C5FD" stroke-width="16"/>
+  <circle cx="600" cy="332" r="112" fill="#DBEAFE" fill-opacity="0.88"/>
+  <path d="M600 332L600 260" stroke="#1D4ED8" stroke-width="18" stroke-linecap="round"/>
+  <path d="M600 332L656 372" stroke="#1D4ED8" stroke-width="18" stroke-linecap="round"/>
+  <rect x="525" y="152" width="150" height="40" rx="20" fill="#2563EB" fill-opacity="0.22" stroke="#60A5FA"/>
+  <text x="600" y="531" text-anchor="middle" fill="#F8FAFC" font-family="'Space Grotesk', Arial, sans-serif" font-size="62" font-weight="700" letter-spacing="3">POMOTECNICA</text>
+  <text x="600" y="589" text-anchor="middle" fill="#93C5FD" font-family="'Space Grotesk', Arial, sans-serif" font-size="24" font-weight="500" letter-spacing="6">POMODORO TIMER EXPERIENCE</text>
+  <defs>
+    <linearGradient id="bg" x1="96" y1="80" x2="1104" y2="670" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#111827"/>
+      <stop offset="1" stop-color="#1E293B"/>
+    </linearGradient>
+  </defs>
+</svg>

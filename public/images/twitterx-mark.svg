@@ -1,0 +1,20 @@
+<svg width="1200" height="750" viewBox="0 0 1200 750" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="750" rx="48" fill="#05070A"/>
+  <rect x="56" y="56" width="1088" height="638" rx="34" fill="url(#panel)" stroke="rgba(255,255,255,0.14)"/>
+  <rect x="120" y="122" width="248" height="504" rx="28" fill="#0F172A" stroke="rgba(148,163,184,0.22)"/>
+  <rect x="408" y="122" width="408" height="504" rx="28" fill="#020617" stroke="rgba(148,163,184,0.22)"/>
+  <rect x="856" y="122" width="224" height="504" rx="28" fill="#0F172A" stroke="rgba(148,163,184,0.22)"/>
+  <circle cx="612" cy="220" r="46" fill="#111827" stroke="#334155"/>
+  <path d="M578 186L643 255M643 186L578 255" stroke="#F8FAFC" stroke-width="18" stroke-linecap="round"/>
+  <rect x="468" y="312" width="286" height="18" rx="9" fill="#E2E8F0" fill-opacity="0.9"/>
+  <rect x="468" y="350" width="214" height="14" rx="7" fill="#94A3B8" fill-opacity="0.75"/>
+  <rect x="468" y="404" width="290" height="94" rx="22" fill="#0F172A" stroke="#1D9BF0" stroke-opacity="0.45"/>
+  <text x="600" y="583" text-anchor="middle" fill="#F8FAFC" font-family="'Space Grotesk', Arial, sans-serif" font-size="60" font-weight="700" letter-spacing="2">TWITTER | X</text>
+  <text x="600" y="635" text-anchor="middle" fill="#38BDF8" font-family="'Space Grotesk', Arial, sans-serif" font-size="24" font-weight="500" letter-spacing="6">SOCIAL FEED UI CLONE</text>
+  <defs>
+    <linearGradient id="panel" x1="92" y1="80" x2="1110" y2="672" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1120"/>
+      <stop offset="1" stop-color="#020617"/>
+    </linearGradient>
+  </defs>
+</svg>

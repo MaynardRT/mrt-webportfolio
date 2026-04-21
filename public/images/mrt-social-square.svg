@@ -1,0 +1,25 @@
+<svg width="1200" height="1200" viewBox="0 0 1200 1200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="1200" rx="140" fill="url(#bg)"/>
+  <rect x="52" y="52" width="1096" height="1096" rx="108" stroke="rgba(255,255,255,0.14)" stroke-width="4"/>
+  <rect x="132" y="132" width="264" height="264" rx="72" fill="url(#logoBg)"/>
+  <path d="M186 320V206H218L264 282L310 206H342V320H312V252L274 312H254L216 252V320H186Z" fill="#F8FAFC"/>
+  <path d="M261 320L312 206H343C372 206 390 220 390 244C390 261 379 272 362 278L392 320H357L331 287H316L298 320H261ZM322 261H338C349 261 358 255 358 244C358 233 349 229 338 229H322V261Z" fill="#F8FAFC" fill-opacity="0.92"/>
+  <path d="M320 206H416V234H384V320H351V234H320V206Z" fill="#DFF7FF"/>
+  <text x="132" y="492" fill="#93C5FD" font-family="'Space Grotesk', Arial, sans-serif" font-size="30" font-weight="700" letter-spacing="8">MRT PORTFOLIO</text>
+  <text x="132" y="660" fill="#F8FAFC" font-family="'Fraunces', Georgia, serif" font-size="142" font-weight="600">Maynard</text>
+  <text x="132" y="786" fill="#F8FAFC" font-family="'Fraunces', Georgia, serif" font-size="142" font-weight="600">Toong</text>
+  <text x="132" y="896" fill="#CBD5E1" font-family="'Space Grotesk', Arial, sans-serif" font-size="42" font-weight="500">Modern interfaces with practical engineering discipline.</text>
+  <rect x="132" y="968" width="310" height="64" rx="32" fill="rgba(255,255,255,0.08)" stroke="rgba(147,197,253,0.24)"/>
+  <text x="287" y="1008" text-anchor="middle" fill="#E2E8F0" font-family="'Space Grotesk', Arial, sans-serif" font-size="24" font-weight="700" letter-spacing="5">MAYNARDTOONG.COM</text>
+  <defs>
+    <linearGradient id="bg" x1="96" y1="80" x2="1110" y2="1128" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1D4ED8"/>
+      <stop offset="0.52" stop-color="#0F766E"/>
+      <stop offset="1" stop-color="#08111F"/>
+    </linearGradient>
+    <linearGradient id="logoBg" x1="158" y1="146" x2="378" y2="378" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2563EB"/>
+      <stop offset="1" stop-color="#0F172A"/>
+    </linearGradient>
+  </defs>
+</svg>
