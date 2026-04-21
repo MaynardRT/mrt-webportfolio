@@ -33,8 +33,7 @@ export function HeroSection() {
               Maynard Toong
             </h1>
             <p className="mt-2 text-sm text-muted">
-              Web Developer \ Application Systems Engineer \ Creative
-              Technologist
+              Web Developer | Application Systems Engineer | AI Coding Talent
             </p>
           </div>
 
