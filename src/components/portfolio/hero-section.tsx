@@ -2,7 +2,6 @@ import Image from "next/image";
 
 import { heroSummary, socialLinks, stats } from "@/data/portfolio";
 
-import { BrandLogo } from "./brand-logo";
 import { DownloadIcon, MailIcon } from "./icons";
 import { Reveal } from "./reveal";
 
