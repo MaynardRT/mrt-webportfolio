@@ -156,28 +156,6 @@ export const projects: ProjectItem[] = [
   },
 ];
 
-<<<<<<< HEAD
-=======
-export const sociallinks: Sociallink[] = [
-{ label: "GitHub", href: "https://github
-• com/MaynardRT" },
-
-{
-label: "LinkedIn",
-href: "https://www.linkedin.com/in/may
-nard-toong-8477aa146",
-},
-{ label: "Facebook", href: "https://www.
-facebook.com/MaynardRT/" },
-
-{ label: "Twitter", href: "https://twitt
-er.com/Maynardrt19" },
-
-{ label: "Pixilart", href: "https://www. pixilart.com/azashi" },
-
-];
-
->>>>>>> ff3a7571e4eca77cedd9f14b8b0813ff91462b2e
 export const contactActions: ContactAction[] = [
   {
     label: "Send Email",
