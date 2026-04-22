@@ -1,22 +1,47 @@
 <svg width="1200" height="750" viewBox="0 0 1200 750" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="1200" height="750" rx="48" fill="#FDF2F8"/>
-  <rect x="54" y="54" width="1092" height="642" rx="38" fill="url(#bg)" stroke="rgba(157,23,77,0.12)"/>
-  <rect x="116" y="122" width="404" height="506" rx="30" fill="#FFF7ED" stroke="rgba(190,24,93,0.14)"/>
-  <circle cx="816" cy="274" r="148" fill="#FFE4E6"/>
-  <path d="M751 255C751 218 780 190 817 190C854 190 883 218 883 255C883 326 817 368 817 368C817 368 751 326 751 255Z" fill="#EC4899"/>
-  <circle cx="816" cy="255" r="34" fill="#FDF2F8"/>
-  <rect x="164" y="180" width="212" height="24" rx="12" fill="#DB2777" fill-opacity="0.88"/>
-  <rect x="164" y="224" width="284" height="16" rx="8" fill="#9D174D" fill-opacity="0.48"/>
-  <rect x="164" y="302" width="308" height="84" rx="24" fill="#FFFFFF" stroke="rgba(236,72,153,0.24)"/>
-  <rect x="164" y="408" width="132" height="44" rx="22" fill="#EC4899"/>
-  <rect x="312" y="408" width="132" height="44" rx="22" fill="#FBCFE8"/>
-  <text x="600" y="584" text-anchor="middle" fill="#831843" font-family="'Space Grotesk', Arial, sans-serif" font-size="62" font-weight="700" letter-spacing="3">TINDOG</text>
-  <text x="600" y="636" text-anchor="middle" fill="#BE185D" font-family="'Space Grotesk', Arial, sans-serif" font-size="24" font-weight="500" letter-spacing="6">LANDING PAGE UI</text>
+  <rect width="1200" height="750" rx="48" fill="url(#heroBg)"/>
+  <rect x="52" y="52" width="1096" height="646" rx="36" stroke="rgba(255,255,255,0.18)"/>
+
+  <g opacity="0.95">
+    <circle cx="103" cy="102" r="19" fill="#FCD5B5"/>
+    <ellipse cx="95" cy="100" rx="8" ry="12" fill="#9A3412"/>
+    <ellipse cx="111" cy="100" rx="8" ry="12" fill="#9A3412"/>
+    <circle cx="96" cy="112" r="3" fill="#1F2937"/>
+    <circle cx="110" cy="112" r="3" fill="#1F2937"/>
+    <circle cx="103" cy="121" r="5" fill="#7C2D12"/>
+  </g>
+
+  <text x="135" y="116" fill="#FFFFFF" font-family="'Space Grotesk', Arial, sans-serif" font-size="58" font-weight="700">tindog</text>
+  <text x="780" y="114" fill="rgba(255,255,255,0.72)" font-family="'Space Grotesk', Arial, sans-serif" font-size="31" font-weight="500">Testimonials</text>
+  <text x="967" y="114" fill="rgba(255,255,255,0.72)" font-family="'Space Grotesk', Arial, sans-serif" font-size="31" font-weight="500">Pricing</text>
+  <text x="1070" y="114" fill="rgba(255,255,255,0.72)" font-family="'Space Grotesk', Arial, sans-serif" font-size="31" font-weight="500">Contact</text>
+
+  <text x="98" y="286" fill="#FFFFFF" font-family="'Space Grotesk', Arial, sans-serif" font-size="76" font-weight="700">Meet new and</text>
+  <text x="98" y="358" fill="#FFFFFF" font-family="'Space Grotesk', Arial, sans-serif" font-size="76" font-weight="700">interesting dogs</text>
+  <text x="98" y="430" fill="#FFFFFF" font-family="'Space Grotesk', Arial, sans-serif" font-size="76" font-weight="700">nearby.</text>
+
+  <rect x="98" y="482" width="165" height="52" rx="10" fill="#111827"/>
+  <text x="116" y="516" fill="#FFFFFF" font-family="'Space Grotesk', Arial, sans-serif" font-size="31" font-weight="500">Download</text>
+  <rect x="273" y="482" width="179" height="52" rx="10" stroke="rgba(255,255,255,0.6)"/>
+  <text x="307" y="516" fill="#FFFFFF" font-family="'Space Grotesk', Arial, sans-serif" font-size="31" font-weight="500">Download</text>
+
+  <g transform="translate(767 222) rotate(25)">
+    <rect x="0" y="0" width="315" height="575" rx="42" fill="#F8FAFC"/>
+    <rect x="16" y="16" width="283" height="543" rx="34" fill="#E5E7EB"/>
+    <rect x="26" y="78" width="263" height="422" rx="26" fill="#F3E8D3"/>
+    <ellipse cx="156" cy="264" rx="70" ry="88" fill="#C4A484"/>
+    <ellipse cx="130" cy="238" rx="17" ry="20" fill="#231F20"/>
+    <ellipse cx="184" cy="236" rx="17" ry="20" fill="#231F20"/>
+    <ellipse cx="157" cy="292" rx="15" ry="11" fill="#1F2937"/>
+    <ellipse cx="156" cy="34" rx="58" ry="16" fill="#F9FAFB"/>
+    <circle cx="156" cy="535" r="18" fill="#D1D5DB"/>
+  </g>
+
   <defs>
-    <linearGradient id="bg" x1="102" y1="86" x2="1090" y2="670" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#FFF1F2"/>
-      <stop offset="0.56" stop-color="#FCE7F3"/>
-      <stop offset="1" stop-color="#FDF2F8"/>
+    <linearGradient id="heroBg" x1="38" y1="42" x2="1158" y2="724" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF4D6D"/>
+      <stop offset="0.58" stop-color="#B66EA8"/>
+      <stop offset="1" stop-color="#7396D4"/>
     </linearGradient>
   </defs>
 </svg>

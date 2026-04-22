@@ -372,6 +372,100 @@ html[data-theme="light"] .brand-logo-light {
   text-transform: uppercase;
 }
 
+.experience-track {
+  position: relative;
+}
+
+.experience-track::before {
+  content: "";
+  position: absolute;
+  inset-block: 0.35rem 0.8rem;
+  inset-inline-start: 0.38rem;
+  width: 1px;
+  background: var(--line);
+}
+
+.experience-item {
+  position: relative;
+  padding-inline-start: 1.95rem;
+}
+
+.experience-item + .experience-item {
+  margin-top: 0.35rem;
+}
+
+.experience-marker {
+  position: absolute;
+  inset-inline-start: 0;
+  inset-block-start: 0.56rem;
+  height: 0.78rem;
+  width: 0.78rem;
+  border: 1px solid var(--line);
+  background: transparent;
+}
+
+.experience-marker.is-active {
+  background: var(--foreground);
+  border-color: var(--foreground);
+}
+
+.experience-card {
+  border-bottom: 1px solid var(--line);
+  padding: 0.25rem 0 1rem;
+}
+
+.experience-item:last-child .experience-card {
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+
+.experience-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  column-gap: 1.2rem;
+  align-items: start;
+}
+
+.experience-year {
+  align-self: start;
+  white-space: nowrap;
+  padding-top: 0.36rem;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.experience-period {
+  color: var(--muted);
+}
+
+html[data-theme="light"] .experience-track::before {
+  background: rgba(15, 23, 42, 0.22);
+}
+
+html[data-theme="light"] .experience-marker {
+  border-color: rgba(15, 23, 42, 0.2);
+  background: rgba(255, 255, 255, 0.88);
+}
+
+html[data-theme="light"] .experience-marker.is-active {
+  border-color: #0f172a;
+  background: #0f172a;
+}
+
+@media (max-width: 640px) {
+  .experience-row {
+    column-gap: 0.8rem;
+  }
+
+  .experience-year {
+    font-size: 0.66rem;
+    letter-spacing: 0.1em;
+  }
+}
+
 .hero-badge {
   display: inline-flex;
   align-items: center;

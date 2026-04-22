@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import { heroSummary, socialLinks, stats } from "@/data/portfolio";
+import { heroSummary, stats } from "@/data/portfolio";
 
 import { DownloadIcon, MailIcon } from "./icons";
 import { Reveal } from "./reveal";
@@ -33,8 +33,7 @@ export function HeroSection() {
               Maynard Toong
             </h1>
             <p className="mt-2 text-sm text-muted">
-              Web Developer \ Application Systems Engineer \ Creative
-              Technologist
+              Web Developer | Application Systems Engineer | AI Automation
             </p>
           </div>
 
@@ -45,7 +44,7 @@ export function HeroSection() {
 
           <div className="mt-6 grid gap-3 sm:mt-8">
             <a
-              href="https://mrtwebsite-cc4d9.firebaseapp.com/Maynard%20Toong%20-%20Resume.pdf"
+              href="https://drive.google.com/file/d/1zXmVMBeulEU5hJJKEmOVFyM7H1_4rmlk/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="primary-button"
@@ -57,20 +56,6 @@ export function HeroSection() {
               <MailIcon />
               Get In Touch
             </a>
-          </div>
-
-          <div className="mt-8 flex flex-wrap justify-center gap-3 text-sm text-muted">
-            {socialLinks.slice(0, 3).map((link) => (
-              <a
-                key={link.label}
-                href={link.href}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="transition hover:text-foreground"
-              >
-                {link.label}
-              </a>
-            ))}
           </div>
         </Reveal>
 

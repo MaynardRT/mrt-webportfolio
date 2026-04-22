@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { type MouseEvent, useEffect, useState } from "react";
 
 import { navigation } from "@/data/portfolio";
 
@@ -59,11 +59,18 @@ export function SiteHeader() {
     setTheme((currentTheme) => (currentTheme === "dark" ? "light" : "dark"));
   };
 
+  const handleGoToTop = (event: MouseEvent<HTMLAnchorElement>) => {
+    event.preventDefault();
+    setMenuOpen(false);
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
   return (
     <header className="surface-panel sticky top-3 z-30 mx-auto w-full rounded-3xl px-3 py-2.5 backdrop-blur-xl sm:top-4 sm:rounded-full sm:px-4 sm:py-3 md:max-w-6xl lg:max-w-304">
       <div className="flex items-center justify-between gap-3 md:gap-5">
         <a
-          href="#home"
+          href="#top"
+          onClick={handleGoToTop}
           className="flex shrink-0 items-center gap-2.5 text-[10px] font-semibold uppercase tracking-[0.16em] text-foreground sm:text-xs md:gap-3 md:text-[11px] md:tracking-[0.18em]"
         >
           <BrandLogo size="header" priority />

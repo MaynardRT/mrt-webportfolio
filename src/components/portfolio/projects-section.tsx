@@ -17,7 +17,7 @@ export function ProjectsSection() {
         <SectionHeading
           eyebrow="Recent Projects"
           title="Selected work"
-          description="Small but useful projects that show how I learned by building: from a first portfolio to Python exercises focused on logic and user input."
+          description="A focused set of frontend builds that mirror real product experiences, from business dashboards to polished landing pages and interactive UI clones."
         />
         <a
           href="https://github.com/MaynardRT/Python-Projects"
