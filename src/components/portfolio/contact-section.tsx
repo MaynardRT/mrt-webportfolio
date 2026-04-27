@@ -1,6 +1,6 @@
 import { contactActions } from "@/data/portfolio";
 
-import { MailIcon, MapPinIcon, PhoneIcon } from "./icons";
+import { MailIcon, MapPinIcon } from "./icons";
 import { Reveal } from "./reveal";
 import { SectionHeading } from "./section-heading";
 
@@ -8,8 +8,6 @@ function getContactIcon(label: string) {
   switch (label) {
     case "Send Email":
       return <MailIcon className="h-5 w-5" />;
-    case "Call":
-      return <PhoneIcon className="h-5 w-5" />;
     case "View Location":
       return <MapPinIcon className="h-5 w-5" />;
     default:
@@ -50,17 +48,6 @@ export function ContactSection() {
                 }
                 className="block"
               >
-                <p className="text-xs font-semibold uppercase tracking-[0.22em] text-accent">
-                  {item.label}
-                </p>
-                <div className="mt-3 flex items-start gap-3">
-                  <span className="contact-icon">
-                    {getContactIcon(item.label)}
-                  </span>
-                  <p className="text-base font-medium text-foreground sm:text-lg">
-                    {item.value}
-                  </p>
-                </div>
               </a>
             </Reveal>
           ))}
