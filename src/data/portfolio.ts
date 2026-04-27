@@ -163,11 +163,6 @@ export const contactActions: ContactAction[] = [
     href: "mailto:maynard.rt97@gmail.com",
   },
   {
-    label: "Call",
-    value: "(+63) 905-271-8474",
-    href: "tel:+639052718474",
-  },
-  {
     label: "View Location",
     value: "Quezon City, Metro Manila, Philippines",
     href: "https://maps.google.com/?q=Quezon+City,+Metro+Manila,+Philippines",
