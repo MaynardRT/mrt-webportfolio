@@ -127,7 +127,7 @@ export const projects: ProjectItem[] = [
     description:
       "A tracking and managing business earnings, featuring dashboard views, role-based navigation, login flows, responsive sidebar behavior, and frontend structure that mirrors the current React app.",
     techstack: "Reactjs/Vite | Asp.Net/C# | PostgreSQL | Supabase | Render",
-    href: "https://maynardrt.github.io/Earnstrack-Demo/earnstrack-demo.html",
+    href: "https://maynardrt.github.io/Earnstrack-Demo/",
     image: "/images/earnstrack-mark.svg",
   },
   {
